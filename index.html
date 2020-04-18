@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <h1>Calculator</h1>
+
+    <div class="main">
+        <div class="display">
+            <span id="savedNumber"></span>
+            <input type="text" readonly id="display" value="0">
+
+        </div>
+        
+        <div class="container">
+            
+            <div class="buttons" id="buttons">
+
+                <div>
+                    <input type="button" class="btt" value="CA" id="clearAllBtt">
+                    <input type="button" class="btt" value="C" id="clearBtt">
+                    <input type="button" class="btt" value="%" id="percentageBtt">
+
+                </div>
+
+                <div>
+                    <input type="button" value="7" class="btt" id="btt7">
+                    <input type="button" value="8" class="btt" id="btt8">
+                    <input type="button" value="9" class="btt" id="btt9">
+
+                </div>
+                
+                <div>
+                    <input type="button" value="4" class="btt" id="btt4">
+                    <input type="button" value="5" class="btt" id="btt5">
+                    <input type="button" value="6" class="btt" id="btt6">
+
+                </div>
+
+                <div>
+                    <input type="button" value="1" class="btt" id="btt1">
+                    <input type="button" value="2" class="btt" id="btt2">
+                    <input type="button" value="3" class="btt" id="btt3">
+                    
+                </div>
+
+                <div>
+                    <input type="button" value="0" class="btt" id="btt0">
+                    <input type="button" value="." class="btt" id="floatBtt">
+
+                </div>
+
+            </div>
+
+            <div class="operators" id="operators">
+                <input type="button" class="btt" id="plusBtt" value="+">
+                <input type="button" class="btt" id="minusBtt" value="-">
+                <input type="button" class="btt" id="timesBtt" value="*">
+                <input type="button" class="btt" id="divBtt" value="/">
+                <input type="button" class="btt" id="equalBtt" value="=">
+
+            </div>
+
+
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
