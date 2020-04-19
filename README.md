@@ -4,4 +4,4 @@ A simple calculator that do the basics arithmetics.
 
 ---
 
-![Calculator image](https://imgur.com/dHcJdVC)
+![Imgur](https://i.imgur.com/dHcJdVC.png)
